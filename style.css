@@ -1,0 +1,22 @@
+/* style.css */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+#display {
+  font-family: 'Orbitron', monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-calc {
+  transition: all 0.15s ease;
+  border-radius: 1rem;
+}
+
+.btn-num { background: rgba(51, 65, 85, 0.6); }
+.btn-op { background: rgba(99, 102, 241, 0.25); color: #a5b4fc; }
+.btn-clear { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
+.btn-equals { background: linear-gradient(135deg, #6366f1, #4f46e5); color: #fff; }
